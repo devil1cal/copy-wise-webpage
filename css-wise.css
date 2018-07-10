@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container{
+	display:flex;
+  width: 100%;
+  height:1021px;
+  justify-content: center;
+  align-items: center;
+}
+/*---------------grids*-----------------------------------*/
+.navi{
+  display: flex;
+  width: 100%;
+  padding:0px 7% 0px 0px;
+	margin: auto;
+ 	height: 100vh;
+}
+.navi li {
+  display: inline-flex;
+}
+.navi li:selected{
+
+}
+}
+
+
+
+}
+
+.foot{
+	display: flex;
+	width: 100%;
+	padding: 0px 7%;
+	margin: 0;
+	height: 100vh;
+	align-items:flex-end;
+	justify-content:flex-end;
+}
+
+
+/*---------------Fonts-----------------------------------*/
+h2{
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-size: 50px;
+	color: green;
+}
+
+/*---------------------------body-------------------------*/
+body{
+	background-color: whitesmoke;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.8em;
+}
+
+/*-------------------------header -------------------------*/
+.header{
+  display: flex;
+	background-image: url(pics/header-bg.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	margin: auto;
+	background-size: 100% 100%;
+	background-origin:border-box;
+	background-attachment:scroll;
+	background-position: center center;
+
+
+}
+		/*hand-made header
+		header {
+			background-color:springgreen;
+			background-image:url(../../pexels-photo-273222.jpeg);
+			background-size:contain;
+			background-repeat: no-repeat;
+			background-blend-mode:screen;
+			width: 1024px;
+			height: 685px;
+			z-index: -1;}
+			*/
+
+/*-------------------navi-options--------------------------*/
+ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.navi{
+	background-color:#4b4343 ;
+	border-radius: 25px 25px 0px 0px;
+	position:relative;top: 15px; left:20; right:10;
+	height: 120px;
+	width: 75%;
+	z-index: 1;
+	background-image:url(pics/550bc3f9a8330.png);
+	background-size: 50px 40px;
+	background-repeat: no-repeat;
+	background-position: 30px;
+	margin: auto;
+
+}
+
+li a {
+	float: left;
+	color: white;
+	display:block;
+	padding: 1em;
+	text-align:center;
+	overflow: hidden;
+	font-size: 17px;
+	text-decoration: none;
+	position:relative; left: 400px; top: 35px;
+	line-height: 15px;
+	z-index: 2;
+}
+
+/*------------------menu-hover-----------------------------*/
+.navi a:hover {
+	background-color:#4b4343 ;
+	color: green;
+	border-radius: 50px 50px 50px 50px;
+	border: 2px solid green;
+	padding: 1em;
+	margin: auto;
+	list-style: none;
+	display: flex;
+	flow: row wrap;
+	justify-content: space-around;
+	transition: .3s;
+	position:relative; left: 400px; top: 35px;
+
+}
+/*------------------header items---------------------------*/
+#rowslogan p {
+	color: #FFFFFF;
+	line-height: 1.3em;
+	font-weight: 500;
+	display: inline-flex;
+	text-align: center;
+	position: relative;
+	top:350px;
+	left:60px;
+	font-size: 50px;
+	te
+}
+#getouch{
+	position: absolute;
+	top:550px;
+	left:390px;
+	padding: 1em;
+	margin: auto;
+	display: block;
+	font-size: 17px;
+	border-radius: 50px 50px 50px 50px;
+	background-color:#4b4343 ;
+	color: green;
+	text-decoration: none;
+}
+/*#getouch:hover{
+	background-color:#2D2D2D;
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+  	padding: 1em;
+  	margin: auto;
+  	display: flex;
+  	flow: row wrap;
+  	justify-content: space-around;
+	transition: .3s;
+	position: absolute;
+	top:550px;
+	left:470px;
+	display: block;
+	font-size: 17px;}*/
+
+/*------------------what are we doing----------------------*/
+.whatdo{
+	position: relative;
+	text-align: center;
+	float: left;
+
+}
+
+.servicepic{
+	position: relative;
+	float: left;
+	margin: auto;
+
+}
+
+.servicep{
+	position: relative;
+	float: left;
+	column-count: 3;
+	column-width: 50px;
+	column-rule-style:none;
+	column-gap: auto;
+}
+
+#UX{
+	position: absolute;
+	left: 50px;
+	top: auto;
+}
+
+#UI{
+	position: absolute;
+	left: 300px;
+	top: auto;
+}
+#Soft{
+	position: absolute;
+	left: 600px;
+	top: auto;
+
+}
+
+/*--------------------Our works----------------------------*/
+.works{
+	position: absolute;
+	text-align: center;
+	float: left;
+	left: 70px;
+	display: flex;
+
+}
+
+/*------------------Our clients----------------------------*/
+.clients{
+	position: absolute;
+	float: left;
+	text-align: center;
+
+
+
+}
+#clientsphotos{
+	display:inline-block;
+	float: left;
+}
+
+/*-------------------------US------------------------------*/
+.us{
+	position: absolute;
+	text-align: center;
+	float: left;
+
+
+}
+
+/*------------------Contacy--------------------------------*/
+.contact{
+	position: absolute;
+	text-align: center;
+	float: left;
+
+
+}
+
+/*------------------Foother--------------------------------*/
+.flex-container-foot{
+	position:absolute;
+	top: auto;
+	right:10px;
+	color:white;
+	background-color:#4b4343 ;
+	border-radius: 0px 0px 25px 25px;
+	height: 150px;
+	width: 95%;
+	z-index: 1;
+
+}
+
+/*---------------responsive--------------------------------*/
+/* start of desktop styles */
+@media screen and (max-width: 1440px) {.container .flex-container-nav .flex-container-foot{ width: 100%}
+/* start of large tablet styles */}
+
+@media screen and (max-width: 700px) {.container .flex-container-nav .flex-container-foot{ width: 75%}
+/* start of medium tablet styles */}
+
+@media screen and (max-width: 500px) {.container .flex-container-nav .flex-container-foot{ width: 50%}
+ /* start of phone styles */
+}
