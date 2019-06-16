@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+html {
+  font-size: calc(1em + 1vw);
+}
 .destop_nav {
   display: none;
 }
@@ -17,11 +19,85 @@ max-height: auto;
 border:1px solid red;
 }
 
+/*---- mobile nav bar ----*/
 
+.dropbtn {
+  background-color: #4b4343;
+  color: white;
+  padding: 16px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  position: fixed;
+}
 
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #4b4343;
+}
 
+/*.dropdown {
+  display: none;
+  position: relative;
+  width: 100%;
+}*/
 
+.dropdown-content {
+  /*size */
+  display: none;
+  position: fixed;
+  margin-top: 62px;
+  max-width: 479px;
+  max-width: auto;
+  min-width: 160px;
+  min-height: auto;
+  overflow: auto;
+  width: 100%;
+  /* design*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background-color: #4b4343;
+  /*fonts*/
+  text-align: center;
+  font-size: 2vr;
+  text-transform: uppercase;
+  font-family:"Roboto";
+  font-weight:  100;
+  font-size: 0.7em;
+}
 
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover, .dropdown-content:focus  {background-color: black;}
+
+.show {display: block;}
+/*---- mobile nav bar ----*/
+
+/*----First section Header--*/
+.header_wise{
+  /* size*/
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-width:320px;
+  min-height: 500px;
+  width: 100%;
+  height: auto;
+  max-width: 479px;
+  max-height: auto;
+  border:1px solid red;
+  padding-top: 150px;
+}
+.main-bg-img{
+  background-image: url("copy-wise-webpage\pics\header-bg.png");
+
+  z-index: -1;
+}
 
 
 
