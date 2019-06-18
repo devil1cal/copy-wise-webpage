@@ -79,6 +79,13 @@ border:1px solid red;
 /*---- mobile nav bar ----*/
 
 /*----First section Header--*/
+
+.main-bg-img{
+background-image: url("header-bg.png");
+background-repeat: no-repeat;
+background-size:cover;
+z-index: -1;
+}
 .header_wise{
   /* size*/
   display: flex;
@@ -93,15 +100,67 @@ border:1px solid red;
   border:1px solid red;
   padding-top: 150px;
 }
-.main-bg-img{
-  background-image: url("copy-wise-webpage\pics\header-bg.png");
+.wellcoming{
+  text-align: center;
+  font-family: "Roboto";
+  border:1px solid red;
+  width: 250px;
+  height: auto;
+  max-width: 450px;
+  max-height: auto;
+  margin:auto;
+  margin-top: -25px;
+  color: white;
+  font-size: 2rem;
 
-  z-index: -1;
 }
 
+.gettouch{
+  align-self: center;
+  border:1px solid red;
+  border-radius: 100px ;
+  width: 240px;
+  height: 50px;
+  margin-bottom: 25px;
+text-align: center;
+margin:auto;
+}
+.gettouch a{
+  text-decoration: none;
+  margin:auto;
 
+text-align: center;
+}
 
+/*--- dots ---*/
+.alldots{
+display: flex;
+justify-content: center;
+align-items:center;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+.dots{
+border-radius: 50%;
+width: 8px;
+height: 8px;
+background-color: #ffffff;
+display: inline-block;
+}
+.dotb{
+  margin-left: 12px;
+  margin-right:  12px;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+  display: inline-block;
+}
+.colour{
+background-color: #50e38e;
 
+}
+/*---dots---*/
 
 
 
