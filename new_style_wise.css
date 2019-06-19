@@ -61,7 +61,7 @@ border:1px solid red;
   text-align: center;
   font-size: 2vr;
   text-transform: uppercase;
-  font-family:"Roboto";
+  font-family: 'Roboto', sans-serif;
   font-weight:  100;
   font-size: 0.7em;
 }
@@ -102,7 +102,7 @@ z-index: -1;
 }
 .wellcoming{
   text-align: center;
-  font-family: "Roboto";
+  font-family:  'Roboto', sans-serif;
   border:1px solid red;
   width: 250px;
   height: auto;
@@ -117,21 +117,44 @@ z-index: -1;
 
 .gettouch{
   align-self: center;
-  border:1px solid red;
   border-radius: 100px ;
   width: 240px;
   height: 50px;
   margin-bottom: 25px;
-text-align: center;
-margin:auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+  margin:auto;
+  background-color: #4b4343;
+
 }
+.wel-prag1{
+  font-family:'Roboto', sans-serif;
+  font-weight: 100;
+  border:1px solid red;
+}
+.wel-prag2{
+  font-weight: 400;
+border:1px solid blue;
+}
+
 .gettouch a{
   text-decoration: none;
-  margin:auto;
+  color: #50e38e;
+  text-align: center;
+  position: relative;
+  top:13px;
 
-text-align: center;
 }
 
+/*--needed hover style----*/
+.gettouch::hover{
+
+}
+.gettouch a:hover{
+
+}
+/*--needed hover style----*/
 /*--- dots ---*/
 .alldots{
 display: flex;
