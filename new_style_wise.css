@@ -123,7 +123,6 @@ z-index: -1;
   margin-bottom: 25px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-
   margin:auto;
   background-color: #4b4343;
 
@@ -135,7 +134,7 @@ z-index: -1;
 }
 .wel-prag2{
   font-weight: 400;
-border:1px solid blue;
+  border:1px solid blue;
 }
 
 .gettouch a{
@@ -144,7 +143,6 @@ border:1px solid blue;
   text-align: center;
   position: relative;
   top:13px;
-
 }
 
 /*--needed hover style----*/
@@ -184,6 +182,42 @@ background-color: #50e38e;
 
 }
 /*---dots---*/
+
+/*--what do we do(sometimes)--*/
+
+.what-do-we{
+display: flex;
+flex-direction: column;
+position: relative;
+min-width:320px;
+min-height: 500px;
+width: 100%;
+height: auto;
+max-width: 479px;
+max-height: auto;
+border:1px solid red;
+padding-top: 50px;
+z-index: -1;
+}
+.main-whatdo{
+text-align: center;
+}
+.servicepic{
+
+}
+
+.servis_parag{
+  border:1px solid red;
+  width: 290px;
+  margin:auto;
+  color: #2f3744;
+  font-size: 21px;
+  font-weight:lighter;
+  font-family:"";
+}
+.user_experience_box
+
+
 
 
 
