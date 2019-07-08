@@ -4,6 +4,7 @@
 }
 html {
   font-size: calc(1em + 1vw);
+  background-color: #f3f3f3;
 }
 .destop_nav {
   display: none;
@@ -16,7 +17,8 @@ min-width:320px;
 min-height: auto;
 max-width: 479px;
 max-height: auto;
-border:1px solid red;
+
+
 }
 
 /*---- mobile nav bar ----*/
@@ -97,13 +99,12 @@ z-index: -1;
   height: auto;
   max-width: 479px;
   max-height: auto;
-  border:1px solid red;
+
   padding-top: 150px;
 }
 .wellcoming{
   text-align: center;
   font-family:  'Roboto', sans-serif;
-  border:1px solid red;
   width: 250px;
   height: auto;
   max-width: 450px;
@@ -112,6 +113,8 @@ z-index: -1;
   margin-top: -25px;
   color: white;
   font-size: 2rem;
+
+
 
 }
 
@@ -130,7 +133,7 @@ z-index: -1;
 .wel-prag1{
   font-family:'Roboto', sans-serif;
   font-weight: 100;
-  border:1px solid red;
+
 }
 .wel-prag2{
   font-weight: 400;
@@ -184,20 +187,21 @@ background-color: #50e38e;
 /*---dots---*/
 
 /*--what do we do(sometimes)--*/
-
+.whatdo{
+  margin: 5px;
+  min-width:200px;
+  min-height: 500px;
+  max-width: 400px;
+  max-height: auto;
+}
 .what-do-we{
 display: flex;
 flex-direction: column;
 position: relative;
-min-width:320px;
-min-height: 500px;
-width: 100%;
-height: auto;
-max-width: 479px;
-max-height: auto;
-border:1px solid red;
 padding-top: 50px;
 z-index: -1;
+background-color: #fefefe;
+
 }
 .main-whatdo{
 text-align: center;
@@ -205,17 +209,86 @@ text-align: center;
 .servicepic{
 
 }
+.what-do-header{
+  color:#50e38e;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+  text-transform: none;
+  margin-bottom: 12px;
+  letter-spacing: 0.1em;
 
+
+}
+.prag-span{
+  width: 290px;
+  margin:auto;
+  color: #2f3744;
+  font-weight:lighter;
+  font-family:'Roboto', sans-serif;
+  letter-spacing: 2;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 290px;
+  /*fonts needed */
+}
 .servis_parag{
-  border:1px solid red;
+
   width: 290px;
   margin:auto;
   color: #2f3744;
   font-size: 21px;
-  font-weight:lighter;
-  font-family:"";
+  font-weight:100;
+  font-family:'Roboto', sans-serif,'Open Sans' ;
+  /*fonts needed */
 }
-.user_experience_box
+
+.what-do-dots{
+margin-bottom: 30px;
+/*fonts needed */
+}
+.user_experience_box{
+  margin-bottom: 50px;
+/*fonts needed */
+}
+.user_ex_img{
+margin-bottom: 12px;
+/*fonts needed */
+}
+
+.user-exp-header{
+margin-bottom: 10px;
+/*fonts needed */
+}
+/*experience tab*/
+
+
+/*interface tab*/
+.user_interface_box{
+margin-bottom: 50px;
+  /*fonts needed */
+}
+.User_in_img{
+margin-bottom: 12px;
+  /*fonts needed */
+}
+.use-int-header{
+margin-bottom: 10px;
+  /*fonts needed */
+}
+
+/*interface tab*/
+.software_box{
+margin-bottom: 50px;
+  /*fonts needed */
+}
+.software_img{
+margin-bottom: 12px;
+  /*fonts needed */
+}
+.soft-header{
+margin-bottom: 10px;
+  /*fonts needed */
+}
 
 
 
