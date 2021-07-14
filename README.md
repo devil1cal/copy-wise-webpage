@@ -4,7 +4,7 @@
 <head>
   <body>
     <p>
-Hi I'm self-taught junior front-end designer. This is my maybe not first web page but the first page when I start make a difference. This is my own code, I will change and fix many issues in time. I'm still learning important componant about the language, espacially CSS. This is my first responsive attempt, and there are some issues like;</p>
+Hi I'm self-taught junior front-end developer. This is my maybe not first web page but the first page when I start make a difference. This is my own code, I will change and fix many issues in time. I'm still learning important componant about the language, espacially CSS. This is my first responsive attempt, and there are some issues like;</p>
     <ul>
       <li>incompability with cross platforms</li>
       <li>website still not fully responsive</li>
