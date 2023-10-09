@@ -13,7 +13,7 @@ Hi I'm self-taught junior front-end developer. This is my maybe not first web pa
     <p>I will be fixed and re-push all my clone & add time stamps because I made this in my computer, I didn't know about Git or repo, yes I learned GitHub before because I started my self-taught journey with Python, GitHub little bit a dungeon for me to crawl</p>
    <p> We will meet again</p>
    <p> <a href="http://www.wisecreative.co/"> For real webpage </a></p>
-   <p><a href="https://www.linkedin.com/in/damlaumar/"> For More Information About Me</a></p>
+   <p><a href="https://www.linkedin.com/in/damlaumar/"> For More Information About Me</a></p> <pan></pan>
     
   </body>
   </html>
